@@ -36,7 +36,7 @@
   <body>
     <header>
         <nav id="navbar" class="navbar fixed-top navbar-dark">
-            <div class="container-fluid d-flex text-center justify-content-between w-100">
+            <div class="container-fluid d-flex text-center justify-content-between w-100 flex-nowrap align-items-center">
                 <div></div>
                 <div>
                     <a class="navbar-brand" href="#">
@@ -45,14 +45,14 @@
                 </div>
                 <div>
                     <a class="nav-link language" href="index-es.html">
-                        <span>&nbsp;&nbsp;ES&nbsp;<i class="fa fa-caret-down" aria-hidden="true"></i>&nbsp;</span>
+                        <span>ES <i class="fa fa-caret-down" aria-hidden="true"></i>&nbsp;</span>
                     </a>
                 </div>
             </div>
           </nav>
     </header>
     <main>
-        <div class="ratio ratio-16x9" style="background-color: #000000;">
+        <div class="ratio ratio-1x1 custom-ratio" style="background-color: #000000;">
             <video class="w-100" autoplay loop muted playsinline>
                 <source src="assets/video/celionAnamorfico.mp4" type="video/mp4" />
             </video>
@@ -90,7 +90,7 @@
         </section>
         <!-- VIDEO -->
         <section class="p-0">
-            <a href="#" target="_blank" class="js-video-button" data-video-id='APaojP_-2wM'>
+            <a href="#" target="_blank" class="js-video-button" data-video-id='KXrDVshHh-Y'>
                 <img src="assets/img/video-bg.png" class="img-fluid" alt="bg-video">
             </a>
         </section>
@@ -106,7 +106,7 @@
                 <div class="wow animate__animated animate__zoomIn">
                     <h2 class="h1 text-gradient-light">FIRST</h2>
                     <h4 class="h4 color-pink">1,000 PEOPLE</h4>
-                    <button class="btn btn-naranja wow animate__animated animate__bounceIn animate__delay-1s">PRE REGISTER</button>
+                    <a type="button" href="#pre-registro" class="btn btn-naranja wow animate__animated animate__bounceIn animate__delay-1s">PRE REGISTER</a>
                 </div>
             </div>
         </section>
@@ -131,7 +131,7 @@
             </div>
         </section>
         <!-- PRE REGISTRO -->
-        <section class="pre-registro container-fluid bg-black text-white">
+        <section class="pre-registro container-fluid bg-black text-white" id="pre-registro">
             <div class="row">
                 <div class="col-12 col-md-8 text-uppercase text-center text-md-start mb-5">
                     <h2 class="h1 wow animate__animated animate__fadeInLeft">PRE REGISTRATION</h2>
